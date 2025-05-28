@@ -46,7 +46,7 @@ Ideal para corrigir erros sem impactar o trabalho de outros colaboradores que j�
 
 ```bash
 git revert <hash-do-commit>
-
+```
 ## 📚 Git Squash
 
 ### 🧩 O que é `git squash`?
