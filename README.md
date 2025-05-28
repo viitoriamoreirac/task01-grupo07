@@ -24,8 +24,28 @@ Esse comando **não mescla** historicamente as branches. Ele apenas aplica o con
 git cherry-pick <commit>
 ```
 
-## comando 3
+## 📚 Git Revert
 
+### 🧩 O que é `git revert`?
+
+O **Git Revert** é um comando usado para **desfazer um commit específico**, criando um **novo commit** que reverte as alterações feitas anteriormente.  
+Diferente de comandos que reescrevem o histórico (como `git reset`), o `git revert` é **seguro para uso em repositórios compartilhados**, pois preserva todo o histórico do projeto.
+
+---
+
+### ⚙️ Funcionamento
+
+Ao utilizar `git revert`, o Git gera um novo commit que contém as alterações contrárias ao commit alvo.  
+Isso significa que o conteúdo do commit selecionado será desfeito, **mas o commit original ainda estará presente no histórico**.
+
+Ideal para corrigir erros sem impactar o trabalho de outros colaboradores que já possam ter feito *pull* ou *clone* do repositório.
+
+---
+
+### 🖊️ Sintaxe
+
+```bash
+git revert <hash-do-commit>
 
 ## 📚 Git Squash
 
