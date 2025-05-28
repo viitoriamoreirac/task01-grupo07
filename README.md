@@ -2,7 +2,27 @@
 
 ## comando 1
 
-## comando 2
+## 📚 Git Cherry-Pick
+
+#### 🧩 O que é `git Cherry-Pick` 
+
+O comando `git cherry-pick` é usado para **aplicar commits específicos de uma branch em outra**. Ele é útil quando você quer trazer uma mudança feita em um commit isolado para outra linha de desenvolvimento, sem fazer um merge completo.
+
+---
+
+## 📌 Funcionamento
+
+O `git cherry-pick` copia o conteúdo de um commit específico (ou uma sequência de commits) e o aplica na branch atual como um novo commit.
+
+Esse comando **não mescla** historicamente as branches. Ele apenas aplica o conteúdo do commit escolhido como se fosse uma nova alteração feita na branch atual.
+
+---
+
+## 🧾 Sintaxe
+
+```bash
+git cherry-pick <commit>
+```
 
 ## comando 3
 
