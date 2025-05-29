@@ -1,8 +1,5 @@
 # Documentação de alguns comandos git
 
-## comando 1
-
-
 ## 📚 Git Rebase
 
 #### 🧩 O que é `git rebase` 
