@@ -2,6 +2,27 @@
 
 ## comando 1
 
+
+## 📚 Git Rebase
+
+#### 🧩 O que é `git rebase` 
+
+O comando `git rebase` é um comando usado para **mover ou reaplicar commits de uma branch sobre outra**, reescrevendo o histórico de forma linear. É útil para manter um histórico de commits mais limpo e organizado, especialmente antes de mesclar uma branch de funcionalidade com a branch principal.
+
+---
+
+## 📌 Funcionamento
+
+O `git rebase` funciona pegando os commits da branch atual que não estão na branch base e os reaplicando, um por um, no topo da nova base. Durante esse processo, o Git recria os commits com novos hashes, o que pode exigir resolução de conflitos se houver mudanças incompatíveis.
+
+---
+
+## 🧾 Sintaxe
+
+```bash
+git rebase <branch>
+```
+
 ## 📚 Git Cherry-Pick
 
 #### 🧩 O que é `git Cherry-Pick` 
